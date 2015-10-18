@@ -88,7 +88,7 @@ $(document).ready(function(){
           $("#message-char").text("username already used")
         }else{
             $("#char-hid-form  > input").val(username);
-            window.location.replace("/dashboard/charity/"+username);
+            window.location.replace("/");
         }
       })
     })
